@@ -1,0 +1,44 @@
+# ============================================================
+# Final hard exclusions
+# These rules must stay at the very bottom.
+# ============================================================
+
+# Python bytecode/cache
+__pycache__/
+**/__pycache__/**
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+
+# YAML configs excluded by request
+*.yaml
+*.yml
+
+# Generated tables/manifests/results
+*.csv
+*.json
+*.log
+
+# Binary/data/model artifacts
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.pickle
+
+# Runtime/result directories
+**/metadata/**
+**/results/**
+**/cache/**
+**/logs/**
+**/data/**
+**/official/**
+**/official_reference/**
+
+# Exclude directory placeholders too
+.gitkeep
+**/.gitkeep

@@ -1,0 +1,6 @@
+wfdb
+numpy
+pandas>=2.2.3,<3
+pyyaml
+tqdm
+pytest
